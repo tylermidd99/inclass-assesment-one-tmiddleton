@@ -1,0 +1,75 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #e6e6e9;
+    font-size: 62.5%;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+/*      Typographical Styles        */
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 2.2rem;
+    margin-bottom: 2.2rem;
+}
+footer p {
+    font-size: 1.6rem;
+}
+
+header, footer {
+    background-color: #fff;
+    color: #c14745;
+    box-shadow: 2px 2px 3px #cbcbd1;
+    margin-bottom: 1.5rem;
+}
+
+.inner-container, footer {
+    padding: 2.2rem;
+}
+
+.card {
+    border: 1px solid #4a5568;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+@media (min-width: 600px) {
+    .card-deck {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card-2, .card-3{
+        width: 48%;
+    }
+ 
+}
+@media only screen and (min-width: 1200px) {
+    .card-deck {
+        display: flex;
+        justify-content: space-between;
+    }
+    .card {
+        width: 31%;
+    }
+}
+
+
